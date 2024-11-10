@@ -18,6 +18,22 @@
         "type": "github"
       }
     },
+    "inlay-hints": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1724405543,
+        "narHash": "sha256-DZVtFAUK9c8GInp+JdCQ1BKe0dkAheHKI67oxdMmA24=",
+        "owner": "MysticalDevil",
+        "repo": "inlay-hints.nvim",
+        "rev": "af84dee42cd118af6d592b06c1c0e45d6432a6c0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "MysticalDevil",
+        "repo": "inlay-hints.nvim",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1731150872,
@@ -33,10 +49,46 @@
         "type": "github"
       }
     },
+    "nixpkgs-unstable": {
+      "locked": {
+        "lastModified": 1730958623,
+        "narHash": "sha256-JwQZIGSYnRNOgDDoIgqKITrPVil+RMWHsZH1eE1VGN0=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "85f7e662eda4fa3a995556527c87b2524b691933",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "onedarkpro": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1731107151,
+        "narHash": "sha256-VtblGGk1MQdHXmeXNnwGdatjtOMfUiRIksQM/ScHkTY=",
+        "owner": "olimorris",
+        "repo": "onedarkpro.nvim",
+        "rev": "c28a6492cfd8752168abfa60ce39d1fc50862b0f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "olimorris",
+        "repo": "onedarkpro.nvim",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
-        "nixpkgs": "nixpkgs"
+        "inlay-hints": "inlay-hints",
+        "nixpkgs": "nixpkgs",
+        "nixpkgs-unstable": "nixpkgs-unstable",
+        "onedarkpro": "onedarkpro",
+        "whaler": "whaler"
       }
     },
     "systems": {
@@ -51,6 +103,22 @@
       "original": {
         "owner": "nix-systems",
         "repo": "default",
+        "type": "github"
+      }
+    },
+    "whaler": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1704281882,
+        "narHash": "sha256-1s6XGi4xIuWZv+2Q1++sdg1HvBkhR0A/4GJoMXDA+QY=",
+        "owner": "SalOrak",
+        "repo": "whaler",
+        "rev": "9e0b67e36250cb80e679563adcd4b7451eae26b2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "SalOrak",
+        "repo": "whaler",
         "type": "github"
       }
     }
